@@ -4,12 +4,14 @@
 2) use homebrew to install the basics
 * ```brew install --cask iterm2```
 * ```brew install zsh```
-* ```brew install neovim```
+* ```brew install neovim``` * Note this didn't work, stick with vim
 * ```brew install tmux```
 * ```brew install git```
+* ```brew install python```
 * ```brew install --cask google-chrome```
 * ```brew install --cask spotify```
 * ```brew install --cask discord```
+* ```brew install --cask zoom```
 
 3) Use Homebrew installed tools by default by editing ```/etc/paths``` so that ```/usr/local/bin``` is above ```/usr/bin```
 
