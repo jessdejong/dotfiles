@@ -16,3 +16,6 @@
 3) Use Homebrew installed tools by default by editing ```/etc/paths``` so that ```/usr/local/bin``` is above ```/usr/bin```
 
 3) Install Oh My Zsh with ```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+4) Set up git configs
+* Set the username: ```git config --global user.name "Jess DeJong"```
+* Store git-credentials on disk: ```git config --global credential.helper store```
