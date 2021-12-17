@@ -10,3 +10,9 @@
 * set up/copy over .zshrc
 7) copy over .tmux.conf
 8) copy over .vimrc and install plugins with Plug
+
+
+When you ssh, you want to use zsh.
+Commands to do so are:
+* ssh -t user@host 'zsh -l'
+* or could use something like change shell command
