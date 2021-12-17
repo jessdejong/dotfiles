@@ -18,4 +18,6 @@
 3) Install Oh My Zsh with ```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
 4) Set up git configs
 * Set the username: ```git config --global user.name "Jess DeJong"```
+* Set the user email: ```git config --global user.email jessdejong843@gmail.com```
 * Store git-credentials on disk: ```git config --global credential.helper store```
+* 
