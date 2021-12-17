@@ -7,5 +7,6 @@
 5) install git && configure git
 6) configure zsh
 * use oh-my-zsh plugin manager to download the plugins specified in .zshrc
-* set up .zshrc
-8) configure vim in .vimrc and install plugins
+* set up/copy over .zshrc
+7) copy over .tmux.conf
+8) copy over .vimrc and install plugins with Plug
