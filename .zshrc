@@ -112,9 +112,9 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
 ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
 ZVM_LINE_INIT_MODE=$ZVM_MODE_INSERT
 
-# function zvm_config() {
-#   ZVM_LINE_INIT_MODE=$ZVM_MODE_INSERT
+#function zvm_config() {
+#  ZVM_LINE_INIT_MODE=$ZVM_MODE_INSERT
   # Only changing the escape key to `jk` in insert mode, we still
   # keep using the default keybindings `^[` in other modes
-  # ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
-# }
+#  ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
+#}

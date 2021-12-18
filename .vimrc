@@ -9,6 +9,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'vim-syntastic/syntastic'
 Plug 'sheerun/vim-polyglot'
+Plug 'preservim/nerdcommenter'
 call plug#end()
 
 " correct cursors, necessary for vim in tmux
@@ -60,3 +61,9 @@ set updatetime=100
 
 " NERDTree
 nnoremap <C-o> :NERDTreeToggle<CR>
+
+" NERDCommenter
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" Control-forward slash for comment toggling
+map <C-_> <plug>NERDCommenterToggle   
