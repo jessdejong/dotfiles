@@ -1,7 +1,0 @@
-dracula-theme.theme-dracula
-equinusocio.vsc-material-theme
-ms-python.python
-vscodevim.vim
-dbaeumer.vscode-eslint
-esbenp.prettier-vscode
-
