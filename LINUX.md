@@ -16,3 +16,10 @@ When you ssh, you want to use zsh.
 Commands to do so are:
 * ssh -t user@host 'zsh -l'
 * or could use something like change shell command
+like put 
+export SHELL=bin/zsh
+exec /bin/zsh -l
+in your .bashrc
+and source ~/.bashrc
+
+Though the above might not even be necessary, since tmux config specifies to use zsh
