@@ -1,5 +1,7 @@
 # dotfiles
 
+note: terminal theme is one dark with #282828 as the background to make the theme monokai
+
 1) install homebrew with ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 2) use homebrew to install the basics
 * ```brew install --cask iterm2```
