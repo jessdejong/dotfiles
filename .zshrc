@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/u/jess/.oh-my-zsh"
+export ZSH="/Users/jess/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -70,7 +70,8 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-vi-mode) 
+plugins=(git zsh-syntax-highlighting zsh-history-substring-search zsh-z)
+# (zsh-vi-mode) 
 
 source $ZSH/oh-my-zsh.sh
 
@@ -101,20 +102,23 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Base16 Shell
-BASE16_SHELL="$HOME/.config/base16-shell/"
-[ -n "$PS1" ] && \
-    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
-        eval "$("$BASE16_SHELL/profile_helper.sh")"
+# BASE16_SHELL="$HOME/.config/base16-shell/"
+# [ -n "$PS1" ] && \
+    # [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+        # eval "$("$BASE16_SHELL/profile_helper.sh")"
+
+
+
 
 # Enable vi mode
 # bindkey -v
 
 ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
-ZVM_LINE_INIT_MODE=$ZVM_MODE_INSERT
+#ZVM_LINE_INIT_MODE=$ZVM_MODE_INSERT
 
 #function zvm_config() {
 #  ZVM_LINE_INIT_MODE=$ZVM_MODE_INSERT
-  # Only changing the escape key to `jk` in insert mode, we still
-  # keep using the default keybindings `^[` in other modes
+#  # Only changing the escape key to `jk` in insert mode, we still
+#  # keep using the default keybindings `^[` in other modes
 #  ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
 #}

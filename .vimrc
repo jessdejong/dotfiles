@@ -10,7 +10,12 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'vim-syntastic/syntastic'
 Plug 'sheerun/vim-polyglot'
 Plug 'preservim/nerdcommenter'
+Plug 'jessdejong/vim-monokai-pro'
+Plug 'uiiaoo/java-syntax.vim'
 call plug#end()
+
+" Monokai Pro
+colorscheme monokai_pro
 
 " correct cursors, necessary for vim in tmux
 let &t_SI = "\<esc>[5 q"  " blinking I-beam in insert mode
@@ -31,6 +36,7 @@ set hlsearch
 set mouse=i
 set autoindent
 set encoding=utf-8
+set colorcolumn=80
 syntax on
 
 " Keybindings
@@ -67,3 +73,7 @@ nnoremap <C-o> :NERDTreeToggle<CR>
 let g:NERDSpaceDelims = 1
 " Control-forward slash for comment toggling
 map <C-_> <plug>NERDCommenterToggle   
+
+" Java Syntax
+" highlight link javaDelimiter NONE
+" highlight link javaIdentifier NONE
